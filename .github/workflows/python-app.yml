@@ -31,3 +31,12 @@ jobs:
     - name: Test with pytest
       run: |
         pytest .
+    - name: Formatting with black
+      run: |
+        black formatting.py
+    - name: Linting with flake8
+      run: |
+        flake8 linting.py
+    - name: Type checking with mypy
+      run: |
+        mypy type_checking.py
