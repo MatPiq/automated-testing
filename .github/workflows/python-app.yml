@@ -33,7 +33,7 @@ jobs:
         pytest .
     - name: Formatting with black
       run: |
-        black formatting.py
+        black formatting.py --check --diff
     - name: Linting with flake8
       run: |
         flake8 linting.py
