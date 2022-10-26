@@ -1,3 +1,2 @@
-def reverse_list(s: list) -> list:
-    s.reverse()
-    return s
+def reverse_string(s: str) -> str:
+    return s.reverse()

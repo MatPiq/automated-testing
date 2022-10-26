@@ -1,5 +1,7 @@
-import math
+import numpy as np # F401
+from math import * # F403
 
-if True is False:  #
-    x = math.sqrt(9)
-    assert x == 3
+if True == False: #
+    x = sqrt(9)
+    break # F701
+
